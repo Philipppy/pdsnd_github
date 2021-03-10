@@ -7,11 +7,13 @@ Date created: March 3rd, 2021
 Post your Work on Github
 
 ### Description
-Describe what your project is about and what it does
+The project is supposed to show if I am able to use the basic git commands and work on a git repository
 
 ### Files used
-Include the files used
+bikeshare.py
+RAEDME.md
+.gitignore
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The project is forked from: https://github.com/udacity/pdsnd_github
 
