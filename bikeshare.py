@@ -236,8 +236,8 @@ def user_stats(df):
     
 def show_data (df):
     """
-    Shows 5 lines of the given data frame and continues until the user quits
-    by typing "no"
+    Shows 5 lines of the given data frame and continues with the
+    next 5 until the user quits by typing "no"
 
     Parameters
     ----------
