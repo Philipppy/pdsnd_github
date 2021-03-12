@@ -10,7 +10,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 #create list of months:
 months = ['all','january','february', 'march', 'april', 'may', 'june']
 
-#create list of weekdays
+#create list of weekdays with a list comprehension
 weekdays = list(calendar.day_name)
 weekdays_lower = [weekdays_lower.lower() for weekdays_lower in weekdays]
 weekdays_lower.append('all')
@@ -236,8 +236,8 @@ def user_stats(df):
     
 def show_data (df):
     """
-    Shows 5 lines of the given data frame and continues until the user quits
-    by typing "no"
+    Shows 5 lines of the given data frame and continues with the
+    next 5 until the user quits by typing "no"
 
     Parameters
     ----------
