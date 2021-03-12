@@ -10,7 +10,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 #create list of months:
 months = ['all','january','february', 'march', 'april', 'may', 'june']
 
-#create list of weekdays
+#create list of weekdays with a list comprehension
 weekdays = list(calendar.day_name)
 weekdays_lower = [weekdays_lower.lower() for weekdays_lower in weekdays]
 weekdays_lower.append('all')
